@@ -21,7 +21,7 @@ const PROJECTS: Project[] = [
       "Integrated Redux and i18next for centralized state and multilingual support across the platform.",
       "Wrote comprehensive unit and integration tests; owned production deployments.",
     ],
-    stack: ["Next.js", "React", "TypeScript", "Redux", "Tailwind CSS", "i18next", "MFE", "Jest", "React Testing Library"],
+    stack: ["Next.js", "React.js", "TypeScript", "Redux", "Tailwind CSS", "i18next", "MFE", "Jest", "React Testing Library"],
     color: "from-amber-500/20 to-orange-500/20",
     iconBg: "bg-amber-500/10 text-amber-400",
     icon: (
@@ -38,7 +38,7 @@ const PROJECTS: Project[] = [
       "Integrated BFF (Backend for Frontend) layer to optimize GraphQL queries and reduce data handling complexity.",
       "Scaffolded Playwright E2E tests for critical checkout flows using Claude AI.",
     ],
-    stack: ["React", "Next.js", "TypeScript", "GraphQL", "Tailwind CSS", "BFF", "Playwright", "Jest", "React Testing Library", "Claude AI"],
+    stack: ["React.js", "Next.js", "Node.js", "TypeScript", "GraphQL", "Tailwind CSS", "BFF", "Playwright", "Jest", "React Testing Library", "Claude AI"],
     color: "from-emerald-500/20 to-teal-500/20",
     iconBg: "bg-emerald-500/10 text-emerald-400",
     icon: (
