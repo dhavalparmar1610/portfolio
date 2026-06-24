@@ -87,36 +87,53 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 mx-auto max-w-5xl px-6 py-32 text-center lg:px-8">
-        {/* Status badge */}
-        <div className="mb-8 inline-flex items-center gap-2 rounded-full bg-emerald/10 px-4 py-1.5 text-sm font-medium text-emerald ring-1 ring-emerald/20">
-          <span className="relative flex h-2 w-2">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald opacity-75" />
-            <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald" />
-          </span>
-          Available for opportunities
+        {/* Status badges row */}
+        <div className="mb-8 flex flex-wrap items-center justify-center gap-3">
+          {/* Open to Work badge */}
+          <div className="inline-flex items-center gap-2 rounded-full bg-emerald/10 px-4 py-1.5 text-sm font-medium text-emerald ring-1 ring-emerald/20">
+            <span className="relative flex h-2 w-2">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald opacity-75" />
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald" />
+            </span>
+            Open to Work · Senior Frontend &amp; Full-Stack Roles
+          </div>
+          {/* Tech Lead badge */}
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-accent/10 px-4 py-1.5 text-sm font-medium text-accent ring-1 ring-accent/20">
+            <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+            </svg>
+            Senior Software Developer · 5+ Yrs Experience
+          </div>
         </div>
 
-        {/* Heading */}
+        {/* Heading — ATS-optimized role title */}
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
           <span className="block text-foreground">Senior Software</span>
           <span className="block mt-2 bg-gradient-to-r from-accent via-accent-hover to-emerald bg-clip-text text-transparent animate-gradient">
-            Developer & Engineer
+            Engineer
           </span>
         </h1>
 
-        {/* Subtitle */}
+        {/* Role specialization line */}
+        <p className="mx-auto mt-4 max-w-lg text-sm font-mono text-muted tracking-widest uppercase">
+          React · TypeScript · Next.js · Node.js · GraphQL · AWS
+        </p>
+
+        {/* Subtitle — recruiter-optimized */}
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground sm:text-xl">
-          Full-Stack Developer with 5+ years building{" "}
+          5+ years shipping{" "}
           <span className="text-foreground font-medium">
-            scalable, production-grade
+            production-grade React &amp; TypeScript
           </span>{" "}
-          web applications — from React &amp; TypeScript frontends to Node.js,
-          GraphQL backends &amp; AWS infrastructure. Passionate about{" "}
-          <span className="text-accent font-medium">clean architecture</span>,{" "}
+          applications at scale — across{" "}
+          <span className="text-accent font-medium">
+            OTT streaming, e-commerce &amp; real estate
+          </span>{" "}
+          domains. Full-stack depth in{" "}
           <span className="text-emerald font-medium">
-            AI-augmented workflows
+            Node.js · GraphQL · AWS
           </span>
-          , and shipping quality code.
+          . Tech Lead with CI/CD ownership and mentoring experience.
         </p>
 
         {/* Actions */}
@@ -147,7 +164,7 @@ export default function Hero() {
             id="hero-view-work"
             className="inline-flex items-center gap-2 rounded-xl bg-surface-elevated px-8 py-3.5 text-sm font-semibold text-foreground ring-1 ring-border transition-all hover:ring-accent/40 hover:bg-surface hover:-translate-y-0.5"
           >
-            View My Work
+            See My Projects
             <svg
               className="h-4 w-4 transition-transform group-hover:translate-x-0.5"
               fill="none"
@@ -184,7 +201,7 @@ export default function Hero() {
           ))}
         </div>
 
-        {/* Tech stack marquee */}
+        {/* ATS-visible tech stack marquee */}
         <div className="mt-16 flex flex-wrap items-center justify-center gap-3 text-xs font-mono text-muted tracking-wide">
           {[
             "React.js",
@@ -192,9 +209,11 @@ export default function Hero() {
             "Next.js",
             "GraphQL",
             "Node.js",
-            "AWS",
-            "Tailwind CSS",
+            "AWS Lambda",
+            "PostgreSQL",
             "Redux Toolkit",
+            "Micro Frontends",
+            "CI/CD",
           ].map((tech) => (
             <span
               key={tech}

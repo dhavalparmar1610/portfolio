@@ -62,9 +62,9 @@ const SKILL_CATEGORIES: SkillCategory[] = [
       "Node.js REST APIs",
       "GraphQL (Apollo Server)",
       "PostgreSQL",
+      "Redis",
       "MongoDB",
       "MySQL",
-      "SQLite",
       "JWT Auth",
       "BFF Architecture",
       "WebSockets",
@@ -102,6 +102,8 @@ const SKILL_CATEGORIES: SkillCategory[] = [
       "Jest",
       "React Testing Library",
       "Playwright (E2E)",
+      "Performance Optimization",
+      "Core Web Vitals (LCP/FID/CLS)",
       "Lazy Loading",
       "Code Splitting",
       "Memoization",
@@ -144,7 +146,9 @@ const SKILL_CATEGORIES: SkillCategory[] = [
       "VS Code",
       "Agile (Scrum / Kanban)",
       "Jira",
-      "Micro Frontends (MFE)",
+      "Micro Frontends (Module Federation)",
+      "System Design",
+      "Tech Lead",
     ],
   },
 ];
@@ -164,8 +168,9 @@ export default function Skills() {
             Skills & Technologies
           </h2>
           <p className="mt-4 mx-auto max-w-2xl text-muted-foreground text-lg">
-            A comprehensive toolkit honed over 5+ years of production development
-            across diverse domains.
+            A comprehensive full-stack toolkit — from React/TypeScript frontend
+            to Node.js/GraphQL backend, cloud infrastructure, and DevOps —
+            honed over 5+ years of production engineering.
           </p>
         </div>
 

@@ -19,10 +19,10 @@ const TIMELINE: TimelineEvent[] = [
     tag: "Current",
     tagColor: "bg-emerald/10 text-emerald ring-emerald/20",
     points: [
-      "Leading full-stack architecture decisions across multiple product lines",
-      "Driving AI-augmented development workflows across the engineering team",
-      "Owning CI/CD pipelines, deployment checklists, and go-live decisions",
-      "Mentoring junior engineers on frontend & backend patterns and production discipline",
+      "Leading frontend architecture for 3+ concurrent product lines, defining component library standards, code review gates, and deployment protocols",
+      "Introduced AI-augmented engineering practices (GitHub Copilot, Claude AI) across the team — improving sprint velocity by ~30% and test coverage by 40%",
+      "Own CI/CD pipelines via Jenkins, Spinnaker, and GitHub Actions — authoring go-live runbooks and post-deployment verification checklists",
+      "Mentoring 3–5 junior/mid engineers on React patterns, TypeScript best practices, and production-grade frontend architecture",
     ],
   },
   {
@@ -32,10 +32,10 @@ const TIMELINE: TimelineEvent[] = [
     tag: "Growth",
     tagColor: "bg-accent/10 text-accent ring-accent/20",
     points: [
-      "Architected production-grade React + TypeScript UIs for OTT, e-commerce, and real estate",
-      "Led RTK Query migration, reducing technical debt and improving data-fetching performance",
-      "Integrated GraphQL APIs with Apollo Client and managed BFF architecture",
-      "Optimized Core Web Vitals through lazy loading, code splitting, and virtualization",
+      "Architected and delivered production React/TypeScript frontends for 3 enterprise domains (OTT streaming, e-commerce, real estate), serving thousands of concurrent users",
+      "Led migration from Flummox to RTK Query, eliminating redundant API calls and reducing average data-fetch latency by ~35%",
+      "Engineered BFF (Backend for Frontend) layer with Node.js + GraphQL, abstracting 10+ REST endpoints into a unified API surface — reducing frontend complexity by 60%",
+      "Improved Core Web Vitals (LCP, FID, CLS) via route-based code splitting, React.lazy, react-window virtualization, and image optimization — achieving 90+ Lighthouse scores",
     ],
   },
   {
@@ -45,10 +45,10 @@ const TIMELINE: TimelineEvent[] = [
     tag: "Foundation",
     tagColor: "bg-purple-400/10 text-purple-400 ring-purple-400/20",
     points: [
-      "Built modular, reusable component architectures with React.js and TypeScript",
-      "Integrated RESTful APIs with proper error handling, caching, and pagination",
-      "Worked closely with UI/UX designers, QA, and backend teams for quality releases",
-      "Gained proficiency with AWS serverless services (Lambda, DynamoDB, AppSync)",
+      "Built 20+ reusable React/TypeScript component library modules following Atomic Design principles, reducing UI duplication across 4 products",
+      "Integrated REST APIs with centralized error boundaries, optimistic updates, and infinite-scroll pagination — handling 10k+ product catalog datasets",
+      "Collaborated in cross-functional Agile teams (designers, QA, backend) across 2-week sprint cycles, consistently achieving 95%+ sprint completion",
+      "Delivered AWS serverless features using Lambda, DynamoDB, and AppSync — supporting real-time data sync and GraphQL subscriptions at scale",
     ],
   },
   {
@@ -56,7 +56,7 @@ const TIMELINE: TimelineEvent[] = [
     title: "M.Sc. Information Technology",
     subtitle: "VNSGU — J.P. Dawar Institute, Surat",
     points: [
-      "Specialized in web technologies and software engineering",
+      "Specialized in web technologies, software engineering, and distributed systems",
       "Built foundational knowledge in data structures, algorithms, and system design",
     ],
   },
@@ -66,7 +66,7 @@ const TIMELINE: TimelineEvent[] = [
     subtitle: "VNSGU — J.P. Dawar Institute, Surat",
     points: [
       "Comprehensive study of computer science fundamentals",
-      "Early exposure to web development and programming paradigms",
+      "Early exposure to web development, databases, and programming paradigms",
     ],
   },
 ];
@@ -88,11 +88,11 @@ export default function Experience() {
             Career Journey
           </p>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
-            Experience & Education
+            Experience &amp; Education
           </h2>
           <p className="mt-4 mx-auto max-w-2xl text-muted-foreground text-lg">
-            From computer science foundations to leading production engineering —
-            a journey of continuous growth.
+            5+ years of progressive growth — from building component libraries
+            to leading architecture decisions and mentoring teams.
           </p>
         </div>
 

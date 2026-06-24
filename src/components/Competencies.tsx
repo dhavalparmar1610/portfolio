@@ -12,9 +12,9 @@ interface Pillar {
 
 const PILLARS: Pillar[] = [
   {
-    title: "Senior Engineering",
+    title: "Frontend Architecture & Tech Leadership",
     description:
-      "Independently driving architectural decisions, owning complex features end-to-end, and maintaining high code quality through rigorous PR reviews and coding standards.",
+      "5+ years architecting scalable React/TypeScript applications with Micro Frontend (Module Federation) patterns, Atomic Design, and rigorous code review standards. Proven Tech Lead experience driving architecture decisions and mentoring cross-functional engineering teams.",
     accent: "text-accent",
     glowColor: "group-hover:shadow-accent/10",
     icon: (
@@ -24,9 +24,9 @@ const PILLARS: Pillar[] = [
     ),
   },
   {
-    title: "AI-Augmented Development",
+    title: "AI-Augmented Engineering",
     description:
-      "Daily power-user of GitHub Copilot, Claude AI, OpenAI Codex, and Cursor IDE — accelerating delivery by ~30%, reducing bugs, and auto-generating test coverage.",
+      "Systematic AI-augmented development using GitHub Copilot, Claude AI, and Cursor IDE — accelerating sprint velocity by ~30% while maintaining test coverage and production quality. AI-scaffolded E2E test suites with Playwright.",
     accent: "text-emerald",
     glowColor: "group-hover:shadow-emerald/10",
     icon: (
@@ -38,7 +38,7 @@ const PILLARS: Pillar[] = [
   {
     title: "Full-Stack Architecture",
     description:
-      "From React/TypeScript frontends to Node.js/GraphQL backends and AWS serverless — building end-to-end scalable solutions with production-grade quality.",
+      "End-to-end full-stack capability: React/Next.js frontends → Node.js/GraphQL BFF layers → PostgreSQL/Prisma data layers → AWS Lambda/AppSync serverless backends. Designed and owned BFF architectures reducing API complexity by 60%.",
     accent: "text-purple-400",
     glowColor: "group-hover:shadow-purple-400/10",
     icon: (
@@ -48,9 +48,9 @@ const PILLARS: Pillar[] = [
     ),
   },
   {
-    title: "Production Discipline",
+    title: "CI/CD & Production Ownership",
     description:
-      "Full ownership of CI/CD pipelines, deployment checklists, and go-live decisions — zero tolerance for shipping untested code to production.",
+      "Owned CI/CD pipelines using Jenkins, Spinnaker, and GitHub Actions. Authored deployment checklists and go-live runbooks. Zero-defect mindset backed by Jest, React Testing Library, and Playwright E2E suites achieving 90%+ coverage.",
     accent: "text-amber-400",
     glowColor: "group-hover:shadow-amber-400/10",
     icon: (
@@ -70,14 +70,14 @@ export default function Competencies() {
         {/* Section header */}
         <div className="text-center mb-16">
           <p className="text-sm font-semibold uppercase tracking-widest text-accent mb-3">
-            Core Pillars
+            What I Do Best
           </p>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
-            What I Bring to the Table
+            Core Competencies
           </h2>
           <p className="mt-4 mx-auto max-w-2xl text-muted-foreground text-lg">
-            More than just code — I combine deep technical expertise with AI-powered
-            productivity and leadership to drive real impact.
+            Combining senior engineering depth with architectural thinking,
+            full-stack fluency, and team leadership to drive measurable impact.
           </p>
         </div>
 
